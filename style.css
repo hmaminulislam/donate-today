@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+.hero {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    flex-basis: 60%;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78.66px;
+    color: #ffffff;
+}
+.hero-content p {
+    width: 90%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding-bottom: 50px;
+}
+.hero-content a {
+    width: 160px;
+    padding: 16px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #FF5959;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
